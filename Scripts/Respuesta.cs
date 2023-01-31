@@ -2,17 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Respuesta : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+//[Serializable]
+public class Respuesta {
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public int response_code;
+    public List<Pregunta> results;
+
 }

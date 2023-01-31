@@ -1,18 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
-public class Pregunta : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+[Serializable]
+public class Pregunta {
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public string category;
+    public string type;
+    public string difficulty;
+    public string question;
+    
 }
