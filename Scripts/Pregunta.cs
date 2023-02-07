@@ -10,5 +10,7 @@ public class Pregunta {
     public string type;
     public string difficulty;
     public string question;
+
+    //Solo son necesarias 4
     
 }
