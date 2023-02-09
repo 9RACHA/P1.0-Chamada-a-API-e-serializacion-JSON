@@ -68,8 +68,13 @@ public class GameManager : MonoBehaviour {
             //Añadir 1 dato a mayores
 
             Debug.Log($"Preguntas pedidas a la API : {peticion}");
+            
             Debug.Log("4 Datos de la 1º pregunta");
-            Debug.Log($"Categoria : {pregunta.category} | tipo : {pregunta.type} | dificultad : {pregunta.difficulty}"); //Añadir dato para que sean 4
+
+            Debug.Log($"Categoria : {pregunta.category}");
+            Debug.Log($"Tipo : {pregunta.type}");
+            Debug.Log($"Dificultad : {pregunta.difficulty}");
+
             Debug.Log($"Pregunta : {pregunta.question}");
 
             }
